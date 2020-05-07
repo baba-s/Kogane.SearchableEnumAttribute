@@ -1,0 +1,17 @@
+{
+    "name": "UniSearchableEnumAttribute.Editor",
+    "references": [
+        "GUID:91f961589bec3384fa4af916bfa8e15d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
