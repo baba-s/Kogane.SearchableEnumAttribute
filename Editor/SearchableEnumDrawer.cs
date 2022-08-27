@@ -1,4 +1,4 @@
-﻿// ---------------------------------------------------------------------------- 
+﻿// ----------------------------------------------------------------------------
 // Author: Ryan Hipple
 // Date:   05/01/2018
 // ----------------------------------------------------------------------------
@@ -7,7 +7,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace Kogane
+namespace Kogane.Internal
 {
     /// <summary>
     /// Draws the custom enum selector popup for enum fileds using the

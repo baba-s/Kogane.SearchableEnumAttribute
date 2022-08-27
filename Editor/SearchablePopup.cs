@@ -1,4 +1,4 @@
-﻿// ---------------------------------------------------------------------------- 
+﻿// ----------------------------------------------------------------------------
 // Author: Ryan Hipple
 // Date:   05/01/2018
 // ----------------------------------------------------------------------------
@@ -8,11 +8,11 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Kogane
+namespace Kogane.Internal
 {
     /// <summary>
     /// A popup window that displays a list of options and may use a search
-    /// string to filter the displayed content. 
+    /// string to filter the displayed content.
     /// </summary>
     internal sealed class SearchablePopup : PopupWindowContent
     {
@@ -164,7 +164,7 @@ namespace Kogane
 
         /// <summary>
         /// Container for all available options that does the actual string
-        /// filtering of the content.  
+        /// filtering of the content.
         /// </summary>
         private readonly FilteredList list;
 
