@@ -1,4 +1,4 @@
-# UniSearchableEnumAttribute
+# Kogane Searchable Enum Attribute
 
 Inspector で列挙型が検索できるようになるエディタ拡張
 
@@ -18,7 +18,7 @@ public class Test : MonoBehaviour
 
 ## ライセンス
 
-* このリポジトリは下記のリポジトリを使用させていただいております  
+* このリポジトリは下記のリポジトリを使用させていただいております
     * https://github.com/roboryantron/UnityEditorJunkie
 * 変更点
     * 名前空間の変更

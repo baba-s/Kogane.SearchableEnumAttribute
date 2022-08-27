@@ -1,5 +1,5 @@
 {
-    "name": "UniSearchableEnumAttribute.Editor",
+    "name": "Kogane.SearchableEnumAttribute.Editor",
     "references": [
         "GUID:91f961589bec3384fa4af916bfa8e15d"
     ],

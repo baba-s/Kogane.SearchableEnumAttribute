@@ -6,10 +6,10 @@
 using System;
 using UnityEngine;
 
-namespace UniSearchableEnumAttribute
+namespace Kogane
 {
-	[AttributeUsage( AttributeTargets.Field )]
-	public sealed class SearchableEnumAttribute : PropertyAttribute
-	{
-	}
+    [AttributeUsage( AttributeTargets.Field )]
+    public sealed class SearchableEnumAttribute : PropertyAttribute
+    {
+    }
 }
