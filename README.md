@@ -5,7 +5,7 @@ Inspector で列挙型が検索できるようになるエディタ拡張
 ## 使用例
 
 ```cs
-using UniSearchableEnumAttribute;
+using Kogane;
 using UnityEngine;
 
 public class Test : MonoBehaviour
