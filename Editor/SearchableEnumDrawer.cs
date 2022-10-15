@@ -51,11 +51,11 @@ namespace Kogane.Internal
             // If the enum has changed, a blank entry
             if ( property.enumValueIndex < 0 || property.enumValueIndex >= property.enumDisplayNames.Length )
             {
-                buttonText = new GUIContent();
+                buttonText = new();
             }
             else
             {
-                buttonText = new GUIContent( property.enumDisplayNames[ property.enumValueIndex ] );
+                buttonText = new( property.enumDisplayNames[ property.enumValueIndex ] );
             }
 
             if ( DropdownButton( id, position, buttonText ) )

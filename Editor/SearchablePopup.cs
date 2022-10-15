@@ -97,7 +97,7 @@ namespace Kogane.Internal
             public FilteredList( string[] items )
             {
                 allItems = items;
-                Entries  = new List<Entry>();
+                Entries  = new();
                 UpdateFilter( "" );
             }
 
@@ -207,7 +207,7 @@ namespace Kogane.Internal
 
         private SearchablePopup( string[] names, int currentIndex, Action<int> onSelectionMade )
         {
-            list                 = new FilteredList( names );
+            list                 = new( names );
             this.currentIndex    = currentIndex;
             this.onSelectionMade = onSelectionMade;
 
